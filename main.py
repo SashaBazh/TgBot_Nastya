@@ -281,4 +281,5 @@ def callback_message(callback):
     elif callback.data == 'about':
         about(callback.message)
 
+print("Бот запущен и готов к работе!")
 bot.polling(none_stop=True)
